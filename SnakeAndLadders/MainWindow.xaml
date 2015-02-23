@@ -1,0 +1,16 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="SnakeAndLadders.MainWindow"
+        Title="Snake And Ladders" Background="Chocolate" Height="200" Width="300" ResizeMode="NoResize" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid>
+        <Button  Name="Ok" Content="Ok" HorizontalAlignment="Left" Margin="209,128,0,0" VerticalAlignment="Top" Width="75" Height="27" Click="Ok_Click" BorderThickness="3" BorderBrush="Purple" Background="BlanchedAlmond"/>
+        <TextBox Name="Player0" HorizontalAlignment="Left" Height="23" Margin="10,44,0,0" TextWrapping="Wrap" Text="Player0" VerticalAlignment="Top" Width="120" GotFocus="Player_GotFocus" LostFocus="Player_LostFocus" BorderThickness="3" BorderBrush="Purple" Background="BlanchedAlmond"/>
+        <TextBox Name="Player1" HorizontalAlignment="Left" Height="23" Margin="10,72,0,0" TextWrapping="Wrap" Text="Player1" VerticalAlignment="Top" Width="120" GotFocus="Player_GotFocus" LostFocus="Player_LostFocus" BorderThickness="3" BorderBrush="Purple" Background="BlanchedAlmond"/>
+        <TextBox Name="Player2" HorizontalAlignment="Left" Height="23" Margin="10,100,0,0" TextWrapping="Wrap" Text="Player2" VerticalAlignment="Top" Width="120" GotFocus="Player_GotFocus" LostFocus="Player_LostFocus" BorderThickness="3" BorderBrush="Purple" Background="BlanchedAlmond"/>
+        <TextBox Name="Player3" HorizontalAlignment="Left" Height="23" Margin="10,128,0,0" TextWrapping="Wrap" Text="Player3" VerticalAlignment="Top" Width="120" GotFocus="Player_GotFocus" LostFocus="Player_LostFocus" BorderThickness="3" BorderBrush="Purple" Background="BlanchedAlmond"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="120" Height="29"/>
+        <Slider Name="NoOfPlayers" Maximum="4" Minimum="2" Interval="1" HorizontalAlignment="Left" Margin="145,44,0,0" VerticalAlignment="Top" Width="139" Height="23" ValueChanged="NoOfPlayers_ValueChanged"/>
+        <Label Content="NoOfPlayers" HorizontalAlignment="Left" Margin="136,10,0,0" VerticalAlignment="Top" Width="139" Height="29"/>
+    </Grid>
+</Window>

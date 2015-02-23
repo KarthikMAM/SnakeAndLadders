@@ -1,0 +1,24 @@
+﻿<Window x:Class="SnakeAndLadders.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DiceRoller" Height="334.4" Width="419.2" Background="Transparent" WindowStyle="None" WindowState="Maximized" ShowInTaskbar="False" ResizeMode="NoResize" AllowsTransparency="True">
+    <Grid HorizontalAlignment="Center" Height="180" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="30*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="30*"/>
+        </Grid.ColumnDefinitions>
+        <Ellipse Fill="Black" Height="60" Stroke="White" StrokeThickness="15" Width="60" Grid.Column="1" Grid.Row="1" Name="Dice00" Opacity="0"/>
+        <Ellipse Fill="Black" Height="60" Stroke="White" StrokeThickness="15" Width="60" Grid.Column="0" Grid.Row="0" Name="Dice01" Opacity="0"/>
+        <Ellipse Fill="Black" Height="60" Stroke="White" StrokeThickness="15" Width="60" Grid.Column="0" Grid.Row="1" Name="Dice02" Opacity="0"/>
+        <Ellipse Fill="Black" Height="60" Stroke="White" StrokeThickness="15" Width="60" Grid.Column="0" Grid.Row="2" Name="Dice03" Opacity="0"/>
+        <Ellipse Fill="Black" Height="60" Stroke="White" StrokeThickness="15" Width="60" Grid.Column="2" Grid.Row="0" Name="Dice04" Opacity="0"/>
+        <Ellipse Fill="Black" Height="60" Stroke="White" StrokeThickness="15" Width="60" Grid.Column="2" Grid.Row="1" Name="Dice05" Opacity="0"/>
+        <Ellipse Fill="Black" Height="60" Stroke="White" StrokeThickness="15" Width="60" Grid.Column="2" Grid.Row="2" Name="Dice06" Opacity="0"/>
+    </Grid>
+</Window>
